@@ -1,0 +1,226 @@
+
+/*navigacija*/
+img.logoimg {
+    margin-bottom: 50px;
+	width: 150px;
+}
+.nav-desk {
+    width: 7%;
+    display: inline-block;
+    overflow: hidden;
+}
+nav {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#nav-toggle {
+    background: transparent;
+    position: absolute;
+    right: 0;
+    /* padding-right: 15px; */
+    top: 5%;
+    height: 38px;
+    width: 41px;
+    cursor: pointer;
+    transform: translate(0%, -50%);
+}
+
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 2px;
+  width: 35px;
+  background: white;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  display: block;
+  content: '';
+}
+
+#nav-toggle span:before {
+  top: -10px;
+}
+
+#nav-toggle span:after {
+  top: 10px;
+}
+
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+  transition: all 0.5s ease-in-out;
+}
+
+#nav-toggle.active span {
+  background-color: transparent;
+}
+
+#nav-toggle.active span:before,
+#nav-toggle.active span:after {
+  top: 0;
+}
+
+#nav-toggle.active span:before {
+  transform: rotate(135deg);
+}
+
+#nav-toggle.active span:after {
+  transform: rotate(-135deg);
+}
+.social{
+	position:fixed;
+	bottom:0;
+	left:0;
+}
+.social img{
+	width:30px;
+	height:auto;
+	display:block;
+	margin-left:15px;
+	margin-bottom:10px;
+}
+/*#nav-icon3 {
+    width: 30px;
+    height: 0;
+    top: 10px;
+    left: 2%;
+    position: fixed;
+    margin: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+#nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: white;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+#nav-icon3 span:nth-child(1) {
+    top: 10px;
+}
+#nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
+    top: 18px;
+}
+#nav-icon3 span:nth-child(4) {
+    top: 26px;
+}*/
+.testic {
+    top: 1%;
+    left: 2%;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+}
+.promena{
+	left:2%;
+	top:2%;
+	position:fixed;
+}
+.black-small-holder {
+   width: 77% !important;
+    position: fixed;
+    left: -74%;
+    height: 100vh;
+    background-color: #e9582b;
+    padding: 0;
+    margin: 0;
+    transition: all 1s;
+	z-index:100;
+}
+.akt{
+	width: 100% !important;
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    /*background-color: #e9582b;*/
+    padding: 0;
+    margin: 0;
+	/*transition: all 1s;*/
+	z-index:100;
+	background: linear-gradient(90deg, #e9592b, #ff9d7e);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 2s ease infinite;
+-moz-animation: AnimationName 2s ease infinite;
+animation: AnimationName 2s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+}
+.nav-content{
+	    width: 50%;
+    /* margin: 16% auto; */
+    margin-left: 25%;
+    display: inline-block;
+    margin-right: 25%;
+    /*margin-top: 3%;*/
+    text-align: center;
+}
+.company-name{
+	font-size:45px;
+	text-align:center;
+	margin-bottom:40px;
+}
+.cont-stub{
+	display:inline-block;
+	width:93%;
+}
+.cont-stub a:hover{
+	letter-spacing: 3px;
+    color: white;
+    border-left: 1px solid white;
+}
+.cont-stub a{
+	text-decoration:none;
+	color:white;
+	font-size:55px;
+	display:block;
+	padding-bottom:7px;
+	margin-bottom:35px;
+	-webkit-transition: color 0.3s ease-out, opacity 0.3s ease-out, visibility 0.3s ease-out, letter-spacing 0.3s ease-out;
+    -webkit-transition-delay: 0s, 0s, 0s, 0s;
+    -moz-transition: color 0.3s ease-out, opacity 0.3s ease-out 0s, visibility 0.3s ease-out 0s, letter-spacing 0.3s ease-out;
+    -o-transition: color 0.3s ease-out, opacity 0.3s ease-out 0s, visibility 0.3s ease-out 0s, letter-spacing 0.3s ease-out;
+    transition: color 0.3s ease-out, opacity 0.3s ease-out 0s, visibility 0.3s ease-out 0s, letter-spacing 0.3s ease-out;
+}
+.logo{
+	width:150px;
+	height:auto;
+}

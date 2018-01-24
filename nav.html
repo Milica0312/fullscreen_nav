@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<link href="css/main.css" rel="stylesheet">
+		<link href="css/main-resp.css" rel="stylesheet">
+
+
+	</head>
+	<body>
+
+
+		<nav>
+			<div class="black-small-holder">
+				<div class="nav-desk">
+					<div id="nav-icon3" class="test">
+						  <a id="nav-toggle" href="#"><span></span></a>
+					</div>
+					<div class="social">
+						<a href="https://www.facebook.com/DoubleMPsolutions/" target="blank_"><img src="images/micons_fb2.png" alt="social" /></a>
+						<a href="https://www.instagram.com/double_mp_solutions/?hl=en" target="blank_"><img src="images/micons_ig2.png" alt="social" /></a>
+
+					</div>
+				</div>
+				<div class="nav-content">
+				<div class="nav_head">
+					<a href="index.php" class="company-name"><img class="logoimg" src="images/doublempicon.png" alt="logo" /></a>
+					<!--<img class="logo" src="images/logo-mini.png" alt="doublemp_logo" />-->
+				</div>
+					<div class="cont-stub">
+						<a href="onama.php">O NAMA</a>
+						<a href="interesovanja.php">INTERESOVANJA</a>
+						<a href="portfolio.php">PORTOFOLIO</a>
+						<a href="blog.php">BLOG</a>
+						<a href="kontakt.php">KONTAKT</a>
+
+					</div><!-----
+					<div class="cont-stub">
+						<a>test</a>
+						<a>test</a>
+						<a>test</a>
+						<a>test</a>
+					</div>-->
+				</div>
+			</div>
+
+		</nav>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script>
+	/*navigacija*/		
+	document.querySelector("#nav-toggle")
+		.addEventListener("click", function () {
+			this.classList.toggle("active");
+		});
+	$("#nav-toggle").on("click", function() {
+
+		$(".black-small-holder").toggleClass("akt");
+		$("#nav-toggle").toggleClass("promena");
+
+});
+	</script>
+	
+	
+	</body>
+	
+</html>
