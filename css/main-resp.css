@@ -33,7 +33,7 @@
 				display: block;
 				content: '';
 			}
-			#nav-toggle span:after {
+#nav-toggle span:after {
     top: 10px;
 }
 #nav-toggle span:before {

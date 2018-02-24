@@ -4,6 +4,10 @@ img.logoimg {
     margin-bottom: 50px;
 	width: 150px;
 }
+
+body{
+	margin:0;
+}
 .nav-desk {
     width: 7%;
     display: inline-block;
